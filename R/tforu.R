@@ -9,7 +9,7 @@ usethis::use_r("tforu")
 #' @return rnaseq
 #' @export
 #'
-#' @examples
+#' @examples tforu("ACGTCATACCATCACG")
 tforu <- function(dnaseq){
   rnaseq <- gsub("T", "U", dnaseq)
   return(rnaseq)
