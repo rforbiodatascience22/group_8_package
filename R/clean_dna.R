@@ -1,6 +1,6 @@
 
 #' Clean DNA
-#' clean_dna functino removes "N" nucleotides from raw DNA sequence in FASTA format and deletes new lines. 
+#' clean_dna function removes "N" nucleotides from raw DNA sequence in FASTA format and deletes new lines. 
 #' 
 #' @param raw_seq Raw sequence of DNA in fasta format. 
 #'
