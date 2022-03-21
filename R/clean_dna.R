@@ -1,4 +1,3 @@
-
 #' Clean DNA
 #' clean_dna function removes "N" nucleotides from raw DNA sequence in FASTA format and deletes new lines. 
 #' 
@@ -13,4 +12,3 @@ clean_dna <- function(raw_seq){
   dna_seq <- paste0(clean_seq, collapse = "")
   return(dna_seq)
 }
-
