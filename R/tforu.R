@@ -1,5 +1,3 @@
-usethis::use_r("tforu")
-
 #' DNA T to U conversion
 #'
 #' @param dnaseq 
