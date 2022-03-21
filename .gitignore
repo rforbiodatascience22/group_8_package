@@ -9,3 +9,4 @@ mypkgname*.tgz
 Group8.Rcheck/
 Group8*.tar.gz
 Group8*.tgz
+inst/doc
