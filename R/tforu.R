@@ -1,9 +1,9 @@
-usethis::use_r("tforu")
+?usethis::use_r("tforu")
 
 
 #' DNA T to U conversion
 #'
-#' @param dnaseq 
+#' @param dnaseq
 #'
 #' @return rnaseq
 #' @export
