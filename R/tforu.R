@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 ?usethis::use_r("tforu")
+=======
+
+usethis::use_r("tforu")
+>>>>>>> 9c2fdf240860e8ad7203991df7cd7f28d94d9fd5
 
 
 #' DNA T to U conversion
@@ -13,3 +18,11 @@ tforu <- function(dnaseq){
   rnaseq <- gsub("T", "U", dnaseq)
   return(rnaseq)
 }
+<<<<<<< HEAD
+=======
+
+?tforu
+
+
+
+>>>>>>> 9c2fdf240860e8ad7203991df7cd7f28d94d9fd5
