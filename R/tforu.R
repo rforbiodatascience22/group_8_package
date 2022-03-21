@@ -11,5 +11,5 @@ tforu <- function(dnaseq){
   rnaseq <- gsub("T", "U", dnaseq)
   return(rnaseq)
 }
-?tforu
+
 
