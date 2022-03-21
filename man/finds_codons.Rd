@@ -13,5 +13,5 @@ finds_codons(sequence, start = 1)
 
 }
 \description{
-finds_codons
+This function finds the indiviual codons
 }
