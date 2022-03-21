@@ -1,2 +1,9 @@
-^mypkgname\.Rproj$
+^Group8\.Rproj$
 ^\.Rproj\.user$
+^mypkgname\.Rcheck$
+^mypkgname.*\.tar\.gz$
+^mypkgname.*\.tgz$
+^LICENSE\.md$
+^Group8\.Rcheck$
+^Group8.*\.tar\.gz$
+^Group8.*\.tgz$
