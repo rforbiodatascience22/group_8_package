@@ -15,6 +15,9 @@ rnaseq
 \description{
 DNA T to U conversion
 }
+<<<<<<< HEAD
 \examples{
 No examples available.
 }
+=======
+>>>>>>> e34c9e2848142b2afa6394733438e78434483ebc
