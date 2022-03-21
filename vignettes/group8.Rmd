@@ -24,6 +24,7 @@ The package is used to translate a DNA sequence into amino acids using a codon t
 Description of the functions:
 Function 1 (clean_dna) removes every character that is not a nucleotide (A,C,G or T) from raw DNA sequence in FASTA format and deletes new lines. The input (raw_seq) is the FASTA document. Everything that are not the 4 nucleotides is removed and a new sequence is stored in clean_seq. Additionally, it removes all the blank spaces and new lines and create a vector called dna_seq that will be the output.
 
+Function 2 (tforu) substitutes all "T"s of a given DNA sequence for "U"s. 
 Function 5: The person(s) responsible for function five, describe how you added the three packages as dependencies and included the pipe in the package namespace.
 
 
