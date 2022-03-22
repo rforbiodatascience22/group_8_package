@@ -27,6 +27,8 @@ Function 1 (clean_dna) removes every character that is not a nucleotide (A,C,G o
 Function 2 (tforu) substitutes all "T"s of a given DNA sequence for "U"s. 
 Function 5: The person(s) responsible for function five, describe how you added the three packages as dependencies and included the pipe in the package namespace.
 
+Function 3 (finds_codons) splits a string containing an DNA/RNA sequence into 
+the indivual codons.
 
 Functions that could be added to the package: 
 Discuss why it is a good idea to limit the number of dependencies your package has. When can it not be avoided?
