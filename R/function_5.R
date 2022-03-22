@@ -13,7 +13,7 @@ function_5 <- function(prot_seq){
     as.data.frame()
 
   colnames(counts) <- c("Counts")
-  counts[["Name_me2"]] <- rownames(counts)
+  counts[["prot_seq"]] <- rownames(counts)
 
   res_freq_plot <- counts %>%
     ggplot2::ggplot(ggplot2::aes(x = Name_me2, y = Counts, fill = Name_me2)) +
