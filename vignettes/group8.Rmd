@@ -49,3 +49,13 @@ Loads the following packages and functions as dependencies:
   magrittr: %>%                               (by "@importFrom magrittr %>%")
 
 To use function 5: plot <- prot_stats(protein)
+
+
+This package can be used to individual several functions described above. But when using the packages function in conjunction. A DNA fasta sequence can be turned into a plot displaying residue frequencies.
+	
+Discussion about dependencies: It is important to limited the dependencies that your package have due to people using the package has download others package to make it work. 
+	
+Also the author of the package is not in control of changes of dependent packages. Sometimes dependencies can not be avoided like. An exemplar of this is when the dependencies package is is doing something which would be to time required to write yourself like ggplot. 
+
+
+It is possible to import an package in two ways: 'package::function()' and '@importFrom package function'. The main difference between these to is that 'package::function()' is more explicit telling which package and function is applied.
