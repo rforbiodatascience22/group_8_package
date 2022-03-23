@@ -15,7 +15,7 @@ knitr::opts_chunk$set(
 ```
 
 ```{r setup}
-library(Group8)
+#library(Group8)
 ```
 
 Link to github:
