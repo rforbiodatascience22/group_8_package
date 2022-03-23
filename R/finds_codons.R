@@ -14,3 +14,4 @@ finds_codons <- function(sequence, start = 1){
                       last = seq(from = 3+start-1, to = length, by = 3))
   return(codons)
 }
+
