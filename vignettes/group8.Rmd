@@ -1,3 +1,5 @@
+rmarkdown::html_vignette
+rmarkdown::pdf_document
 ---
 title: "group8"
 output: rmarkdown::html_vignette
