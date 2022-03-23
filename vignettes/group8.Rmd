@@ -18,6 +18,9 @@ knitr::opts_chunk$set(
 library(Group8)
 ```
 
+Link to github:
+https://github.com/rforbiodatascience22/group_8_package
+
 Description of the package:
 The package is used to translate a DNA sequence into amino acids using a codon translation table. It has 5 functions.
 
