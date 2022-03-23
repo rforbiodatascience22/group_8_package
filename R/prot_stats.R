@@ -1,24 +1,26 @@
-#' @return rnaseq
-#' @param name_me2
+#' @return res_freq_plot
+#' @param prot_seq
 #'
-#' @examples function_5("ERFDTGVCWQAFSET")
+#' @examples prot_stats("ERFDTGVCWQAFSET")
 #' @importFrom magrittr %>%
-function_5 <- function(prot_seq){
+prot_stats <- function(prot_seq){
   res_list <- prot_seq %>%
     stringr::str_split(pattern = stringr::boundary("character"), simplify = TRUE) %>%
     as.character() %>%
     unique()
 
-  counts <- sapply(res_list, function(name_me4) stringr::str_count(string = prot_seq, pattern =  name_me4)) %>%
+  counts <- sapply(res_list, function(sequence) stringr::str_count(string = prot_seq, pattern =  sequence)) %>%
     as.data.frame()
 
   colnames(counts) <- c("Counts")
   counts[["prot_seq"]] <- rownames(counts)
 
   res_freq_plot <- counts %>%
-    ggplot2::ggplot(ggplot2::aes(x = Name_me2, y = Counts, fill = Name_me2)) +
+    ggplot2::ggplot(ggplot2::aes(x = prot_seq, y = Counts, fill = prot_seq)) +
     ggplot2::geom_col() +
     ggplot2::theme_bw()
 
   return(res_freq_plot)
 }
+
+prot_stats('REFDEFDEFFFD')
