@@ -1,12 +1,12 @@
 #' finds_codons
 #'
-#' @param sequence
-#' @param start
+#' @param sequence: RNA sequence
+#' @param start: starting codon
 #'
 #' @return
 #' @export
 #'
-#' @examples
+#' @examples function('AGCCUAUGUACUGUAGUCGUAGUCUAA')
 finds_codons <- function(sequence, start = 1){
   length <- nchar(sequence)
   codons <- substring(sequence,

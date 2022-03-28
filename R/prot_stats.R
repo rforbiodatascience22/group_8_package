@@ -22,5 +22,3 @@ prot_stats <- function(prot_seq){
 
   return(res_freq_plot)
 }
-
-prot_stats('REFDEFDEFFFD')

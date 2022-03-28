@@ -7,11 +7,16 @@
 finds_codons(sequence, start = 1)
 }
 \arguments{
-\item{start}{}
+\item{sequence:}{RNA sequence}
+
+\item{start:}{starting codon}
 }
 \value{
 
 }
 \description{
-This function finds the indiviual codons
+finds_codons
+}
+\examples{
+function('AGCCUAUGUACUGUAGUCGUAGUCUAA')
 }

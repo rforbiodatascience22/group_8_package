@@ -8,3 +8,5 @@
 ^Group8.*\.tar\.gz$
 ^Group8.*\.tgz$
 ^data-raw$
+^doc$
+^Meta$
