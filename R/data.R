@@ -1,9 +1,6 @@
 #' Codon table
-#' 
-#' Standard codon table to translate the nucleotides to amino acids. 
-#' 
-#' @format
-#' dictionary
-#' 
+#'
+#' Standard codon table to translate the nucleotides to amino acids.
+#'
 #' @source \url{https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi?chapter=tgencodes#SG1}
 "codons"
