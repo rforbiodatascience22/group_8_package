@@ -19,5 +19,4 @@ clean_dna function removes "N" nucleotides from raw DNA sequence in FASTA format
 }
 \examples{
 No examples available.
-
 }
