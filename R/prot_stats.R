@@ -7,7 +7,7 @@
 #' @importFrom magrittr %>%
 prot_stats <- function(prot_seq){
   res_list <- prot_seq %>%
-    stringr::str_split(pattern = stringr::boundary("character"), simplify = TRUE) %>%
+    stringr::str_split(pattern = stringr::boundary(c("character","*")), simplify = TRUE) %>%
     as.character() %>%
     unique()
 
