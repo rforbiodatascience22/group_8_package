@@ -1,6 +1,8 @@
 #' @return res_freq_plot
 #' @param prot_seq
 #'
+#' @export
+#'
 #' @examples prot_stats("ERFDTGVCWQAFSET")
 #' @importFrom magrittr %>%
 prot_stats <- function(prot_seq){
